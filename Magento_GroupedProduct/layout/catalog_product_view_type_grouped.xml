@@ -4,5 +4,8 @@
         <referenceContainer name="after.body.start">
             <block class="Magento\Framework\View\Element\Template" name="product.combined.body" template="Magento_Catalog::product/combined-body.phtml"/>
         </referenceContainer>
+
+        <referenceBlock name="catalog.product.related" remove="true" />
     </body>
 </page>
+
